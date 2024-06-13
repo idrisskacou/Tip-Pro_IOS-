@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		2D04CB302C1B4F000054FC13 /* Tip_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D04CB2F2C1B4F000054FC13 /* Tip_ProTests.swift */; };
 		2D04CB3A2C1B4F000054FC13 /* Tip_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D04CB392C1B4F000054FC13 /* Tip_ProUITests.swift */; };
 		2D04CB3C2C1B4F000054FC13 /* Tip_ProUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D04CB3B2C1B4F000054FC13 /* Tip_ProUITestsLaunchTests.swift */; };
+		2D04CB492C1B508C0054FC13 /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D04CB482C1B508C0054FC13 /* Calculation.swift */; };
+		2D04CB4C2C1BA3E30054FC13 /* Privacy Policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 2D04CB4B2C1BA3E30054FC13 /* Privacy Policy.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		2D04CB352C1B4F000054FC13 /* Tip ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D04CB392C1B4F000054FC13 /* Tip_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_ProUITests.swift; sourceTree = "<group>"; };
 		2D04CB3B2C1B4F000054FC13 /* Tip_ProUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_ProUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D04CB482C1B508C0054FC13 /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
+		2D04CB4A2C1BA3B60054FC13 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2D04CB4B2C1BA3E30054FC13 /* Privacy Policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Privacy Policy.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +79,8 @@
 		2D04CB122C1B4EFF0054FC13 = {
 			isa = PBXGroup;
 			children = (
+				2D04CB4B2C1BA3E30054FC13 /* Privacy Policy.md */,
+				2D04CB4A2C1BA3B60054FC13 /* README.md */,
 				2D04CB1D2C1B4EFF0054FC13 /* Tip Pro */,
 				2D04CB2E2C1B4F000054FC13 /* Tip ProTests */,
 				2D04CB382C1B4F000054FC13 /* Tip ProUITests */,
@@ -96,6 +103,7 @@
 			children = (
 				2D04CB1E2C1B4EFF0054FC13 /* Tip_ProApp.swift */,
 				2D04CB202C1B4EFF0054FC13 /* ContentView.swift */,
+				2D04CB482C1B508C0054FC13 /* Calculation.swift */,
 				2D04CB222C1B4F000054FC13 /* Assets.xcassets */,
 				2D04CB242C1B4F000054FC13 /* Preview Content */,
 			);
@@ -207,7 +215,7 @@
 				};
 			};
 			buildConfigurationList = 2D04CB162C1B4EFF0054FC13 /* Build configuration list for PBXProject "Tip Pro" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -231,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D04CB4C2C1BA3E30054FC13 /* Privacy Policy.md in Resources */,
 				2D04CB262C1B4F000054FC13 /* Preview Assets.xcassets in Resources */,
 				2D04CB232C1B4F000054FC13 /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D04CB212C1B4EFF0054FC13 /* ContentView.swift in Sources */,
+				2D04CB492C1B508C0054FC13 /* Calculation.swift in Sources */,
 				2D04CB1F2C1B4EFF0054FC13 /* Tip_ProApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,11 +435,11 @@
 				DEVELOPMENT_TEAM = JVG9YGW59X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,9 +447,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mathphysic.Tip-Pro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,11 +466,11 @@
 				DEVELOPMENT_TEAM = JVG9YGW59X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,9 +478,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mathphysic.Tip-Pro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
